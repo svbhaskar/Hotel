@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>About Us</title>
+</head>
+
+<body>
+  <div class="abt_main">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-transparent">
+      <div class="container">
+        <a class="navbar-brand mx-auto" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="images/ham-menu.svg" alt="ham-menu" />
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="Rooms.html">Rooms</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="servies.html">Services</a>
+            </li>
+            <li class="nav-item active mx-2">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link " href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <button class="btn nav-cta my-sm-0 mx-2" type="submit">
+              Book Now
+            </button>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LogIn / SignUp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--NAVBAR END  -->
+
+
+
+    <p class="abt_heading">About Us</p>
+    <span class="abt_span">Lorem Ipsum</span>
+  </div>
+
+
+
+  <!-- OUR STORY  -->
+  <div class="ourStory">
+
+    <div class="row">
+      <div class="col-md-6 ourStory_content">
+        <h1>Our Story</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum ullamcorper leo posuere. Diam,
+          nisi velit sed habitasse. Semper mi feugiat interdum duis odio sit bibendum semper odio. Commodo nisl id
+          integer lorem. Enim, eleifend eget pellentesque aenean nibh ut. Tortor hendrerit facilisi </p>
+      </div>
+      <div class="ourstoryimg col-md-6 ourstory_img1">
+        <img src="/images/1.png" alt="" class="ourStory_img1 img-fluid">
+
+      </div>
+    </div>
+  </div>
+  <!-- OUR STORY END  -->
+
+  <!-- OUR STAFF  -->
+  <div class="ourstaff">
+    <h1 class="staff-heading">Our Staff</h1>
+    <div class="our">
+      <div class="grid">
+        <div class="grid-item">
+          <div class="card">
+            <img class="card-img" src="/images/chef1.png" alt="Rome" />
+            <div class="card-content">
+
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ultricies volutpat semper sed eu aliquet
+                neque massa. Porta elementum ut in felis mauris auctor.
+              </p>
+              <button class="card-btn">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img class="card-img" src="/images/chef2.png" alt="Grand Canyon" />
+            <div class="card-content">
+
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ultricies volutpat semper sed eu aliquet
+                neque massa. Porta elementum ut in felis mauris auctor.
+              </p>
+              <button class="card-btn">Read More </button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img class="card-img" src="/images/photo-1577219491135-ce391730fb2c 1.png" alt="Maldives" />
+            <div class="card-content">
+
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ultricies volutpat semper sed eu aliquet
+                neque massa. Porta elementum ut in felis mauris auctor.
+              </p>
+              <button class="card-btn">Read More </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- OUR STAFF END  -->
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+  <script>
+    window.addEventListener('scroll', function () {
+      let nav = document.querySelector('nav');
+      let windowPos = window.scrollY > 0;
+      nav.classList.toggle('scrolled', windowPos);
+    })
+  </script>
+</body>
+
+</html>
